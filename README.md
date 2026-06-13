@@ -2,6 +2,8 @@
 
 beat-reactive rgb lights that follow whatever you're playing on spotify.
 
+![demo](assets/demo.png)
+
 i got some cheap bluetooth led strips (the ones that show up as "Triones" or "QHM" in bluetooth settings) and wanted them to actually react to music instead of just cycling through presets. this script listens to your system audio, detects beats, and pushes colors over ble. spotify track info shows up in the terminal because why not.
 
 **macos only** for the spotify part — it uses applescript to read what's playing. the audio + ble stuff should work on linux/windows too if you use `--no-spotify`.
