@@ -1,4 +1,4 @@
-# auto-sync
+# audiosync
 
 beat-reactive rgb lights that follow whatever you're playing on spotify.
 
